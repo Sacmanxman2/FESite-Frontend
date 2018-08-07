@@ -1,14 +1,14 @@
 <template>
   <div id="app">
     <VHeader></VHeader>
-    <router-view/>
+    <router-view></router-view>
     <VFooter></VFooter>
   </div>
 </template>
 
 <script>
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
+import Header from '@/components/layout/Header'
+import Footer from '@/components/layout/Footer'
 
 export default {
   name: 'App',
@@ -18,6 +18,10 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+@import '@/assets/colors.scss';
+</style>
 
 <style>
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div id="footer">
     <footer class="footer">
-      <div class="content has-text-centered">
+      <div class="has-text-centered">
         <p>&copy; 2018 Faithful Envoy</p>
       </div>
     </footer>
