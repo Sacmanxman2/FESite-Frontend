@@ -12,6 +12,7 @@
             <router-link to="/" class="navbar-item" :class="buttonClass('/')">Home</router-link>
             <router-link to="/About" class="navbar-item" :class="buttonClass('/About')">About Us</router-link>
             <router-link to="/Contact" class="navbar-item" :class="buttonClass('/Contact')">Contact</router-link>
+            <router-link to="/Give" class="navbar-item" :class="buttonClass('/Give')">Give Now</router-link>
           </div>
         </div>
       </div>
